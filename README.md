@@ -36,6 +36,8 @@ Use this one-liner to set up an IPsec VPN server:
 wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
 ```
 
+如果提示bash sudo : command not found，那么需要安装一下sudo，命令为apt-get install sudo
+
 If using CentOS, replace the link above with `https://git.io/vpnsetup-centos`.
 
 Your VPN login details will be randomly generated, and displayed on the screen when finished.
